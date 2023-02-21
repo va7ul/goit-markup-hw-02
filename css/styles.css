@@ -9,6 +9,9 @@
 }
 
 body {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     font-family: 'Roboto', sans-serif;
     color: var(--title-text-color);
     background-color: var(--primary-bg-color);
@@ -38,28 +41,23 @@ body {
 
 /* ==================== COMPONENTS ==================== */
 
-.text-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--title-text-color);
-}
-
-.text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color);
-}
-
 .section-title {
     font-size: 36px;
     line-height: 1.1;
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--title-text-color);
+}
+
+.text-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--title-text-color);
+}
+
+.text {
+    color: var(--primary-text-color);
 }
 
 /* ==================== /COMPONENTS ==================== */
@@ -87,9 +85,6 @@ body {
 
 .menu-link {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--title-text-color);
 }
 
@@ -101,9 +96,6 @@ body {
 .contacts-email,
 .contacts-number {
     font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 
@@ -129,7 +121,6 @@ body {
     font-size: 56px;
     line-height: 1.1;
     text-align: center;
-    letter-spacing: 0.02em;
     color: var(--primary-bg-color);
 }
 
@@ -190,9 +181,6 @@ body {
 }
 
 .footer-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--third-text-color);
 }
 
@@ -209,7 +197,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--secondary-text-color);
-    background-color: var(--third-text-color);
+    background-color: var(--secondary-bg-color);
     cursor: pointer;
 }
 
